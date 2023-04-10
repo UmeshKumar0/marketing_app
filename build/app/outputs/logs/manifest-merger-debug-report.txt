@@ -1,0 +1,1330 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:16:5-98:19
+MERGED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-29:19
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-29:19
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-36:19
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-36:19
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-33:19
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-33:19
+MERGED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-18:19
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-18:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /home/umesh/.gradle/caches/transforms-3/8a03f66f6c9a9d02bbbc0f87c44d31b1/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /home/umesh/.gradle/caches/transforms-3/8a03f66f6c9a9d02bbbc0f87c44d31b1/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:15:5-16:19
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:15:5-16:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/umesh/.gradle/caches/transforms-3/e51efde11e4ebebbf1c14240ab2885fc/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/umesh/.gradle/caches/transforms-3/e51efde11e4ebebbf1c14240ab2885fc/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/umesh/.gradle/caches/transforms-3/3084f26b1759d9b52bf97211f54e33f3/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/umesh/.gradle/caches/transforms-3/3084f26b1759d9b52bf97211f54e33f3/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /home/umesh/.gradle/caches/transforms-3/727d4be4f040e1688230683f0cc8cd46/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /home/umesh/.gradle/caches/transforms-3/727d4be4f040e1688230683f0cc8cd46/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/a5fd41e973844c2bf1c8bf17e27f716c/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/a5fd41e973844c2bf1c8bf17e27f716c/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/umesh/.gradle/caches/transforms-3/837c99e2866aa84d5c619b6e88b7db41/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/umesh/.gradle/caches/transforms-3/837c99e2866aa84d5c619b6e88b7db41/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/umesh/.gradle/caches/transforms-3/ee17f5ab6716e8f01f942d3248d0f851/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/umesh/.gradle/caches/transforms-3/ee17f5ab6716e8f01f942d3248d0f851/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/umesh/.gradle/caches/transforms-3/8595d92ec56dfc0c05e001ba31fa19c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/umesh/.gradle/caches/transforms-3/8595d92ec56dfc0c05e001ba31fa19c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/umesh/.gradle/caches/transforms-3/3df6ed1d9bed9e9b8d571c9997f676bd/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/umesh/.gradle/caches/transforms-3/3df6ed1d9bed9e9b8d571c9997f676bd/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /home/umesh/.gradle/caches/transforms-3/dbc574952166167828087e3913dcd43e/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /home/umesh/.gradle/caches/transforms-3/dbc574952166167828087e3913dcd43e/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/umesh/.gradle/caches/transforms-3/6fad478b0890da3ebff82048a03ee508/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/umesh/.gradle/caches/transforms-3/6fad478b0890da3ebff82048a03ee508/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/umesh/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/umesh/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/umesh/.gradle/caches/transforms-3/44d043d23fbe6644b9c402bc8ae3dcc5/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/umesh/.gradle/caches/transforms-3/44d043d23fbe6644b9c402bc8ae3dcc5/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/umesh/.gradle/caches/transforms-3/3d1e58076ca9cad4ad299d957e1deefe/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/umesh/.gradle/caches/transforms-3/3d1e58076ca9cad4ad299d957e1deefe/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:15:5-44:19
+MERGED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:15:5-44:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:1-99:12
+INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:1-99:12
+INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:1-99:12
+INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:1-99:12
+MERGED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:1-99:12
+MERGED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-50:12
+MERGED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-31:12
+MERGED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:path_provider_android] /home/umesh/work/marketing/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-38:12
+MERGED from [:assets_audio_player_web] /home/umesh/work/marketing/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /home/umesh/work/marketing/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /home/umesh/work/marketing/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-35:12
+MERGED from [:flutter_sound] /home/umesh/work/marketing/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:google_maps_flutter_android] /home/umesh/work/marketing/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:camera_android] /home/umesh/work/marketing/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/umesh/work/marketing/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:syncfusion_flutter_pdfviewer] /home/umesh/work/marketing/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:in_app_update] /home/umesh/work/marketing/build/in_app_update/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:connectivity_plus] /home/umesh/work/marketing/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:permission_handler_android] /home/umesh/work/marketing/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding_android] /home/umesh/work/marketing/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info_plus] /home/umesh/work/marketing/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:device_info_plus] /home/umesh/work/marketing/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:workmanager] /home/umesh/work/marketing/build/workmanager/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /home/umesh/.gradle/caches/transforms-3/8a03f66f6c9a9d02bbbc0f87c44d31b1/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/umesh/.gradle/caches/transforms-3/c0f3f20b388f4fd17719d5b4717873f3/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/umesh/.gradle/caches/transforms-3/e51efde11e4ebebbf1c14240ab2885fc/transformed/jetified-glide-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/umesh/.gradle/caches/transforms-3/3084f26b1759d9b52bf97211f54e33f3/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /home/umesh/.gradle/caches/transforms-3/727d4be4f040e1688230683f0cc8cd46/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/a5fd41e973844c2bf1c8bf17e27f716c/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/8d725527be6b8ceaed4a0cb629711b97/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/umesh/.gradle/caches/transforms-3/837c99e2866aa84d5c619b6e88b7db41/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/umesh/.gradle/caches/transforms-3/ee17f5ab6716e8f01f942d3248d0f851/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/umesh/.gradle/caches/transforms-3/8595d92ec56dfc0c05e001ba31fa19c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/umesh/.gradle/caches/transforms-3/3df6ed1d9bed9e9b8d571c9997f676bd/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /home/umesh/.gradle/caches/transforms-3/dbc574952166167828087e3913dcd43e/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/umesh/.gradle/caches/transforms-3/529ed0003ad362acfb8675dd6857221d/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] /home/umesh/.gradle/caches/transforms-3/8b83e66dac75c4ac1de21501571d181c/transformed/jetified-activity-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/umesh/.gradle/caches/transforms-3/6cd9fdcd6707bb0f67eabe11d5dc18ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/umesh/.gradle/caches/transforms-3/b21fac8fcd1472fce41ef9eb718f8588/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/umesh/.gradle/caches/transforms-3/e8b360aab1e9f882b7fc0740167eea99/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/umesh/.gradle/caches/transforms-3/da54f808456aca7f2ad93a77528aabd0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/e1f5bf00836c889852a9a2014464d260/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/umesh/.gradle/caches/transforms-3/02cdc45b9ec741e782c71b0365c00b55/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /home/umesh/.gradle/caches/transforms-3/195a57cf6df2fedb4dd28cfbaea41925/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /home/umesh/.gradle/caches/transforms-3/49d20f340fae79518ad8b914f3cb386a/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.6.0] /home/umesh/.gradle/caches/transforms-3/bc37fd7f415b51a315e65c3823902e54/transformed/media-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/umesh/.gradle/caches/transforms-3/891627d7b2a17cf2a9fe5da195bb3f9d/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/umesh/.gradle/caches/transforms-3/96fd0b9e9a0ff11bf1656e43a458742e/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/umesh/.gradle/caches/transforms-3/a10fbf99005cb160a62b0f9bb1dfb347/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /home/umesh/.gradle/caches/transforms-3/d52a7750301d23374dde8fe8376aa78b/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /home/umesh/.gradle/caches/transforms-3/9d88009f871bb6ab5724422736165381/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /home/umesh/.gradle/caches/transforms-3/22b5191ddc57d6f98512a29287b43268/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.1] /home/umesh/.gradle/caches/transforms-3/69eb911985a5aa38850ba760b4c33855/transformed/jetified-exoplayer-rtsp-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /home/umesh/.gradle/caches/transforms-3/e650aa73a9ef686509ac89a6cdf193a6/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/umesh/.gradle/caches/transforms-3/d92839e001a30939cc8f8496593c09dd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/umesh/.gradle/caches/transforms-3/35b8ce5546a7ca1a5c67d2746078e617/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/umesh/.gradle/caches/transforms-3/5971388339108524347c38c61dbb95f6/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/umesh/.gradle/caches/transforms-3/4895f1faffe56f79fed582760f9714c7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/umesh/.gradle/caches/transforms-3/9412021a32378240c21d255fd6064538/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/umesh/.gradle/caches/transforms-3/4c0b7961fa0be9a0bf47e311a89d5aa2/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/umesh/.gradle/caches/transforms-3/9a3f88b28fc440d3db6c0e13a7427874/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/umesh/.gradle/caches/transforms-3/6fad478b0890da3ebff82048a03ee508/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/umesh/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/umesh/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/umesh/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/umesh/.gradle/caches/transforms-3/873876c78d5bd4660a62a88874e83a88/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/umesh/.gradle/caches/transforms-3/e9d6e072cb1ddf07012454b7e02e3970/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/umesh/.gradle/caches/transforms-3/00e2e7731d491ced2f8dcc612f56e369/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/umesh/.gradle/caches/transforms-3/575b1fcd65f1fa3cb993ddb88b856e21/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/umesh/.gradle/caches/transforms-3/9be76c5d1deb19567a11b82e71c34be8/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /home/umesh/.gradle/caches/transforms-3/0ba3e1d75d950b4ce19f826f9171326f/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /home/umesh/.gradle/caches/transforms-3/228a444e316d077c2681d450e4c85053/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /home/umesh/.gradle/caches/transforms-3/b47cb3dbbb626ef18b55587960773054/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /home/umesh/.gradle/caches/transforms-3/45c90325d57916c067b29a41f64a4bc3/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /home/umesh/.gradle/caches/transforms-3/1f64fb2b2f58e35a6304234b74c8cc27/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/umesh/.gradle/caches/transforms-3/44d043d23fbe6644b9c402bc8ae3dcc5/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/umesh/.gradle/caches/transforms-3/55a34cd8f18b76b68c92213a9388a4e6/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/umesh/.gradle/caches/transforms-3/b34178b803933c07150fb77af1f51d39/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/umesh/.gradle/caches/transforms-3/9d89cdffc612121070d54bbc35e626ba/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/umesh/.gradle/caches/transforms-3/a23f07464225d7651282c349b2750111/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/umesh/.gradle/caches/transforms-3/9633f98cacc600c55cd8e13ad9ef85d0/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/umesh/.gradle/caches/transforms-3/0874b2ce249aebd6be8581da2886a270/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/umesh/.gradle/caches/transforms-3/1c4db09a62f016ff3190ccf02b09b30c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/umesh/.gradle/caches/transforms-3/b056f379bb23e7c9af0bc16467b47b5b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/umesh/.gradle/caches/transforms-3/3d1e58076ca9cad4ad299d957e1deefe/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/umesh/.gradle/caches/transforms-3/60455f47848b88c03b916134aaa9223d/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/umesh/.gradle/caches/transforms-3/8dcb19c8cebf1ee10bca0e03b6b28144/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:2:52-82
+		INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:2:52-82
+		INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:1-99:12
+		INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:2:5-51
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:1-99:12
+		INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:3:5-77
+MERGED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:13:5-77
+MERGED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:3:22-74
+uses-permission#android.permission.CAMERA
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:4:5-65
+MERGED from [:camera_android] /home/umesh/work/marketing/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-65
+MERGED from [:camera_android] /home/umesh/work/marketing/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:4:22-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:5:5-81
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:8:5-71
+MERGED from [:camera_android] /home/umesh/work/marketing/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-71
+MERGED from [:camera_android] /home/umesh/work/marketing/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:8:22-68
+queries
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:9:5-14:15
+MERGED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+MERGED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.SENDTO+data:scheme:smsto
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:10:9-13:18
+action#android.intent.action.SENDTO
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:11:13-67
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:11:21-64
+data
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:12:13-44
+	android:scheme
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:12:19-41
+uses-permission#carrier privileges
+ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:15:5-58
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml:15:22-55
+uses-sdk
+INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/umesh/work/marketing/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/umesh/work/marketing/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:40
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:40
+MERGED from [:assets_audio_player_web] /home/umesh/work/marketing/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:assets_audio_player_web] /home/umesh/work/marketing/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/umesh/work/marketing/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/umesh/work/marketing/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /home/umesh/work/marketing/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /home/umesh/work/marketing/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_sound] /home/umesh/work/marketing/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_sound] /home/umesh/work/marketing/build/flutter_sound/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/umesh/work/marketing/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/umesh/work/marketing/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera_android] /home/umesh/work/marketing/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera_android] /home/umesh/work/marketing/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/umesh/work/marketing/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/umesh/work/marketing/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:syncfusion_flutter_pdfviewer] /home/umesh/work/marketing/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:syncfusion_flutter_pdfviewer] /home/umesh/work/marketing/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:in_app_update] /home/umesh/work/marketing/build/in_app_update/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:in_app_update] /home/umesh/work/marketing/build/in_app_update/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /home/umesh/work/marketing/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /home/umesh/work/marketing/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /home/umesh/work/marketing/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /home/umesh/work/marketing/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /home/umesh/work/marketing/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /home/umesh/work/marketing/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/umesh/work/marketing/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/umesh/work/marketing/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:device_info_plus] /home/umesh/work/marketing/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:device_info_plus] /home/umesh/work/marketing/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:workmanager] /home/umesh/work/marketing/build/workmanager/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:workmanager] /home/umesh/work/marketing/build/workmanager/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /home/umesh/.gradle/caches/transforms-3/8a03f66f6c9a9d02bbbc0f87c44d31b1/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /home/umesh/.gradle/caches/transforms-3/8a03f66f6c9a9d02bbbc0f87c44d31b1/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/umesh/.gradle/caches/transforms-3/c0f3f20b388f4fd17719d5b4717873f3/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/umesh/.gradle/caches/transforms-3/c0f3f20b388f4fd17719d5b4717873f3/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/umesh/.gradle/caches/transforms-3/e51efde11e4ebebbf1c14240ab2885fc/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/umesh/.gradle/caches/transforms-3/e51efde11e4ebebbf1c14240ab2885fc/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/umesh/.gradle/caches/transforms-3/3084f26b1759d9b52bf97211f54e33f3/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/umesh/.gradle/caches/transforms-3/3084f26b1759d9b52bf97211f54e33f3/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /home/umesh/.gradle/caches/transforms-3/727d4be4f040e1688230683f0cc8cd46/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /home/umesh/.gradle/caches/transforms-3/727d4be4f040e1688230683f0cc8cd46/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/a5fd41e973844c2bf1c8bf17e27f716c/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/a5fd41e973844c2bf1c8bf17e27f716c/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/8d725527be6b8ceaed4a0cb629711b97/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /home/umesh/.gradle/caches/transforms-3/8d725527be6b8ceaed4a0cb629711b97/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/umesh/.gradle/caches/transforms-3/837c99e2866aa84d5c619b6e88b7db41/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/umesh/.gradle/caches/transforms-3/837c99e2866aa84d5c619b6e88b7db41/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/umesh/.gradle/caches/transforms-3/ee17f5ab6716e8f01f942d3248d0f851/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/umesh/.gradle/caches/transforms-3/ee17f5ab6716e8f01f942d3248d0f851/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/umesh/.gradle/caches/transforms-3/8595d92ec56dfc0c05e001ba31fa19c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/umesh/.gradle/caches/transforms-3/8595d92ec56dfc0c05e001ba31fa19c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/umesh/.gradle/caches/transforms-3/3df6ed1d9bed9e9b8d571c9997f676bd/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/umesh/.gradle/caches/transforms-3/3df6ed1d9bed9e9b8d571c9997f676bd/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /home/umesh/.gradle/caches/transforms-3/dbc574952166167828087e3913dcd43e/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /home/umesh/.gradle/caches/transforms-3/dbc574952166167828087e3913dcd43e/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /home/umesh/.gradle/caches/transforms-3/529ed0003ad362acfb8675dd6857221d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/umesh/.gradle/caches/transforms-3/529ed0003ad362acfb8675dd6857221d/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] /home/umesh/.gradle/caches/transforms-3/8b83e66dac75c4ac1de21501571d181c/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] /home/umesh/.gradle/caches/transforms-3/8b83e66dac75c4ac1de21501571d181c/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/umesh/.gradle/caches/transforms-3/6cd9fdcd6707bb0f67eabe11d5dc18ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/umesh/.gradle/caches/transforms-3/6cd9fdcd6707bb0f67eabe11d5dc18ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/umesh/.gradle/caches/transforms-3/b21fac8fcd1472fce41ef9eb718f8588/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/umesh/.gradle/caches/transforms-3/b21fac8fcd1472fce41ef9eb718f8588/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/umesh/.gradle/caches/transforms-3/e8b360aab1e9f882b7fc0740167eea99/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/umesh/.gradle/caches/transforms-3/e8b360aab1e9f882b7fc0740167eea99/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/umesh/.gradle/caches/transforms-3/da54f808456aca7f2ad93a77528aabd0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/umesh/.gradle/caches/transforms-3/da54f808456aca7f2ad93a77528aabd0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/e1f5bf00836c889852a9a2014464d260/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/e1f5bf00836c889852a9a2014464d260/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/umesh/.gradle/caches/transforms-3/02cdc45b9ec741e782c71b0365c00b55/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/umesh/.gradle/caches/transforms-3/02cdc45b9ec741e782c71b0365c00b55/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /home/umesh/.gradle/caches/transforms-3/195a57cf6df2fedb4dd28cfbaea41925/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /home/umesh/.gradle/caches/transforms-3/195a57cf6df2fedb4dd28cfbaea41925/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /home/umesh/.gradle/caches/transforms-3/49d20f340fae79518ad8b914f3cb386a/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /home/umesh/.gradle/caches/transforms-3/49d20f340fae79518ad8b914f3cb386a/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /home/umesh/.gradle/caches/transforms-3/bc37fd7f415b51a315e65c3823902e54/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /home/umesh/.gradle/caches/transforms-3/bc37fd7f415b51a315e65c3823902e54/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.core:core-ktx:1.9.0] /home/umesh/.gradle/caches/transforms-3/891627d7b2a17cf2a9fe5da195bb3f9d/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/umesh/.gradle/caches/transforms-3/891627d7b2a17cf2a9fe5da195bb3f9d/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/umesh/.gradle/caches/transforms-3/96fd0b9e9a0ff11bf1656e43a458742e/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/umesh/.gradle/caches/transforms-3/96fd0b9e9a0ff11bf1656e43a458742e/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/umesh/.gradle/caches/transforms-3/a10fbf99005cb160a62b0f9bb1dfb347/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/umesh/.gradle/caches/transforms-3/a10fbf99005cb160a62b0f9bb1dfb347/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /home/umesh/.gradle/caches/transforms-3/d52a7750301d23374dde8fe8376aa78b/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] /home/umesh/.gradle/caches/transforms-3/d52a7750301d23374dde8fe8376aa78b/transformed/jetified-exoplayer-hls-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /home/umesh/.gradle/caches/transforms-3/9d88009f871bb6ab5724422736165381/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /home/umesh/.gradle/caches/transforms-3/9d88009f871bb6ab5724422736165381/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /home/umesh/.gradle/caches/transforms-3/22b5191ddc57d6f98512a29287b43268/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] /home/umesh/.gradle/caches/transforms-3/22b5191ddc57d6f98512a29287b43268/transformed/jetified-exoplayer-smoothstreaming-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.1] /home/umesh/.gradle/caches/transforms-3/69eb911985a5aa38850ba760b4c33855/transformed/jetified-exoplayer-rtsp-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.18.1] /home/umesh/.gradle/caches/transforms-3/69eb911985a5aa38850ba760b4c33855/transformed/jetified-exoplayer-rtsp-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /home/umesh/.gradle/caches/transforms-3/e650aa73a9ef686509ac89a6cdf193a6/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /home/umesh/.gradle/caches/transforms-3/e650aa73a9ef686509ac89a6cdf193a6/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/umesh/.gradle/caches/transforms-3/d92839e001a30939cc8f8496593c09dd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/umesh/.gradle/caches/transforms-3/d92839e001a30939cc8f8496593c09dd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/umesh/.gradle/caches/transforms-3/35b8ce5546a7ca1a5c67d2746078e617/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/umesh/.gradle/caches/transforms-3/35b8ce5546a7ca1a5c67d2746078e617/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/umesh/.gradle/caches/transforms-3/5971388339108524347c38c61dbb95f6/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/umesh/.gradle/caches/transforms-3/5971388339108524347c38c61dbb95f6/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/umesh/.gradle/caches/transforms-3/4895f1faffe56f79fed582760f9714c7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/umesh/.gradle/caches/transforms-3/4895f1faffe56f79fed582760f9714c7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/umesh/.gradle/caches/transforms-3/9412021a32378240c21d255fd6064538/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/umesh/.gradle/caches/transforms-3/9412021a32378240c21d255fd6064538/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/umesh/.gradle/caches/transforms-3/4c0b7961fa0be9a0bf47e311a89d5aa2/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/umesh/.gradle/caches/transforms-3/4c0b7961fa0be9a0bf47e311a89d5aa2/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/umesh/.gradle/caches/transforms-3/9a3f88b28fc440d3db6c0e13a7427874/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/umesh/.gradle/caches/transforms-3/9a3f88b28fc440d3db6c0e13a7427874/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/umesh/.gradle/caches/transforms-3/6fad478b0890da3ebff82048a03ee508/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/umesh/.gradle/caches/transforms-3/6fad478b0890da3ebff82048a03ee508/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/umesh/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/umesh/.gradle/caches/transforms-3/b3aaa08a3f58058a7d57a5e78cb8e348/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/umesh/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/umesh/.gradle/caches/transforms-3/5396a73fd761f1465b5ee1ca5f74c9b2/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/umesh/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/umesh/.gradle/caches/transforms-3/cfaa035a43a363ad38f5365ab0b90d5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/umesh/.gradle/caches/transforms-3/873876c78d5bd4660a62a88874e83a88/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/umesh/.gradle/caches/transforms-3/873876c78d5bd4660a62a88874e83a88/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/umesh/.gradle/caches/transforms-3/e9d6e072cb1ddf07012454b7e02e3970/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/umesh/.gradle/caches/transforms-3/e9d6e072cb1ddf07012454b7e02e3970/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/umesh/.gradle/caches/transforms-3/00e2e7731d491ced2f8dcc612f56e369/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/umesh/.gradle/caches/transforms-3/00e2e7731d491ced2f8dcc612f56e369/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/umesh/.gradle/caches/transforms-3/575b1fcd65f1fa3cb993ddb88b856e21/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/umesh/.gradle/caches/transforms-3/575b1fcd65f1fa3cb993ddb88b856e21/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/umesh/.gradle/caches/transforms-3/9be76c5d1deb19567a11b82e71c34be8/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/umesh/.gradle/caches/transforms-3/9be76c5d1deb19567a11b82e71c34be8/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /home/umesh/.gradle/caches/transforms-3/0ba3e1d75d950b4ce19f826f9171326f/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /home/umesh/.gradle/caches/transforms-3/0ba3e1d75d950b4ce19f826f9171326f/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /home/umesh/.gradle/caches/transforms-3/228a444e316d077c2681d450e4c85053/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /home/umesh/.gradle/caches/transforms-3/228a444e316d077c2681d450e4c85053/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /home/umesh/.gradle/caches/transforms-3/b47cb3dbbb626ef18b55587960773054/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /home/umesh/.gradle/caches/transforms-3/b47cb3dbbb626ef18b55587960773054/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /home/umesh/.gradle/caches/transforms-3/45c90325d57916c067b29a41f64a4bc3/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /home/umesh/.gradle/caches/transforms-3/45c90325d57916c067b29a41f64a4bc3/transformed/jetified-exoplayer-decoder-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /home/umesh/.gradle/caches/transforms-3/1f64fb2b2f58e35a6304234b74c8cc27/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /home/umesh/.gradle/caches/transforms-3/1f64fb2b2f58e35a6304234b74c8cc27/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/umesh/.gradle/caches/transforms-3/44d043d23fbe6644b9c402bc8ae3dcc5/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/umesh/.gradle/caches/transforms-3/44d043d23fbe6644b9c402bc8ae3dcc5/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/umesh/.gradle/caches/transforms-3/55a34cd8f18b76b68c92213a9388a4e6/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/umesh/.gradle/caches/transforms-3/55a34cd8f18b76b68c92213a9388a4e6/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/umesh/.gradle/caches/transforms-3/b34178b803933c07150fb77af1f51d39/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/umesh/.gradle/caches/transforms-3/b34178b803933c07150fb77af1f51d39/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/umesh/.gradle/caches/transforms-3/9d89cdffc612121070d54bbc35e626ba/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/umesh/.gradle/caches/transforms-3/9d89cdffc612121070d54bbc35e626ba/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/umesh/.gradle/caches/transforms-3/a23f07464225d7651282c349b2750111/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/umesh/.gradle/caches/transforms-3/a23f07464225d7651282c349b2750111/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/umesh/.gradle/caches/transforms-3/9633f98cacc600c55cd8e13ad9ef85d0/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/umesh/.gradle/caches/transforms-3/9633f98cacc600c55cd8e13ad9ef85d0/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/umesh/.gradle/caches/transforms-3/0874b2ce249aebd6be8581da2886a270/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/umesh/.gradle/caches/transforms-3/0874b2ce249aebd6be8581da2886a270/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/umesh/.gradle/caches/transforms-3/1c4db09a62f016ff3190ccf02b09b30c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/umesh/.gradle/caches/transforms-3/1c4db09a62f016ff3190ccf02b09b30c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/umesh/.gradle/caches/transforms-3/b056f379bb23e7c9af0bc16467b47b5b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/umesh/.gradle/caches/transforms-3/b056f379bb23e7c9af0bc16467b47b5b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/umesh/.gradle/caches/transforms-3/3d1e58076ca9cad4ad299d957e1deefe/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /home/umesh/.gradle/caches/transforms-3/3d1e58076ca9cad4ad299d957e1deefe/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/umesh/.gradle/caches/transforms-3/60455f47848b88c03b916134aaa9223d/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/umesh/.gradle/caches/transforms-3/60455f47848b88c03b916134aaa9223d/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/umesh/.gradle/caches/transforms-3/8dcb19c8cebf1ee10bca0e03b6b28144/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/umesh/.gradle/caches/transforms-3/8dcb19c8cebf1ee10bca0e03b6b28144/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/umesh/work/marketing/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:12:5-68
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:26:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:26:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:connectivity_plus] /home/umesh/work/marketing/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:connectivity_plus] /home/umesh/work/marketing/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /home/umesh/.gradle/caches/transforms-3/e650aa73a9ef686509ac89a6cdf193a6/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /home/umesh/.gradle/caches/transforms-3/e650aa73a9ef686509ac89a6cdf193a6/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /home/umesh/.gradle/caches/transforms-3/1f64fb2b2f58e35a6304234b74c8cc27/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /home/umesh/.gradle/caches/transforms-3/1f64fb2b2f58e35a6304234b74c8cc27/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+	android:exported
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+	android:exported
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-41:19
+MERGED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+	android:authorities
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+	android:name
+		ADDED from [:firebase_messaging] /home/umesh/work/marketing/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /home/umesh/work/marketing/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+	android:enabled
+		ADDED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+	android:name
+		ADDED from [:geolocator_android] /home/umesh/work/marketing/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+MERGED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-28:20
+MERGED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-28:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-27:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /home/umesh/work/marketing/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-79
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [:file_picker] /home/umesh/work/marketing/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+receiver#com.github.florent37.assets_audio_player.notification.NotificationActionReceiver
+ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:39
+	android:exported
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-108
+receiver#com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver
+ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:20
+	android:exported
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-107
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-74
+service#com.github.florent37.assets_audio_player.notification.NotificationService
+ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-35:19
+	android:enabled
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+	android:exported
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [:assets_audio_player] /home/umesh/work/marketing/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-101
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: com.github.florent37.assets_audio_player has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/umesh/work/marketing/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: com.github.florent37.assets_audio_player has a targetSdkVersion < 4
+service#id.flutter.flutter_background_service.BackgroundService
+ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:44
+	android:enabled
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-35
+	android:exported
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+	android:stopWithTask
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-41
+	android:name
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-83
+receiver#id.flutter.flutter_background_service.WatchdogReceiver
+ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-23:39
+	android:enabled
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-35
+	android:exported
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-82
+receiver#id.flutter.flutter_background_service.BootReceiver
+ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-32:20
+	android:enabled
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-78
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_background_service_android] /home/umesh/work/marketing/build/flutter_background_service_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-31:29
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+	android:resource
+		ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from [:image_picker_android] /home/umesh/work/marketing/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /home/umesh/work/marketing/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+	android:enabled
+		ADDED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+	android:exported
+		ADDED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+	android:name
+		ADDED from [:location] /home/umesh/work/marketing/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] /home/umesh/.gradle/caches/transforms-3/a4023bb11a82a38eed01ed4eb710ae9f/transformed/jetified-flutter_sound_core-9.2.13/AndroidManifest.xml:13:22-77
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/d5e4c04f4690837574f4fd959dc722b7/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:5-82
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/umesh/.gradle/caches/transforms-3/96ed0c615ac7d76092b033e05da87412/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /home/umesh/.gradle/caches/transforms-3/f20b4cbee5d172b16cfaea4a2c26ea87/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/umesh/.gradle/caches/transforms-3/3df6ed1d9bed9e9b8d571c9997f676bd/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /home/umesh/.gradle/caches/transforms-3/3df6ed1d9bed9e9b8d571c9997f676bd/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bccbe6d122c1b8acd4eabe8df012de0c/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /home/umesh/.gradle/caches/transforms-3/bfd20290ff5d39e38453adc1ae5698f7/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /home/umesh/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /home/umesh/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.2] /home/umesh/.gradle/caches/transforms-3/5dcb539ab6180e04e51869aae48e2df6/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/umesh/.gradle/caches/transforms-3/ac20124166528b90eb750a9c2aadf745/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /home/umesh/.gradle/caches/transforms-3/ed46e731aa84ba74e4900038bc2b3fc2/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /home/umesh/.gradle/caches/transforms-3/5ec3faad4c67c5d02d41a8d7d7f45ea7/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/umesh/.gradle/caches/transforms-3/28227dfaf4fb370352c7c3385ec25021/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/umesh/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /home/umesh/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /home/umesh/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/umesh/.gradle/caches/transforms-3/6fad478b0890da3ebff82048a03ee508/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/umesh/.gradle/caches/transforms-3/6fad478b0890da3ebff82048a03ee508/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/umesh/.gradle/caches/transforms-3/9bc64c732e6848cf43a3d250c3a1cb2f/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.magadh.marketing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.magadh.marketing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/umesh/.gradle/caches/transforms-3/3be1c84ba3978673562f295cdead12c4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/umesh/.gradle/caches/transforms-3/d81beec3119527e29a0721f06f4f6a94/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:18:9-24:45
+	android:process
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:23:13-64
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:20:13-36
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:24:13-42
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:22:13-48
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:19:13-100
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:25:9-29:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:28:13-42
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:29:13-62
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:26:13-93
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:32:9-39:19
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:34:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:33:13-94
+meta-data#com.google.android.play.core.assetpacks.versionCode
+ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:36:13-38:41
+	android:value
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:38:17-38
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:37:17-83
+service#com.google.android.play.core.assetpacks.ExtractionForegroundService
+ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:40:9-43:40
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:42:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /home/umesh/.gradle/caches/transforms-3/e38a610fd45fe2c0af77bd758c721efe/transformed/jetified-core-1.10.3/AndroidManifest.xml:41:13-95

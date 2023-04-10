@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "227905948756",
+    "project_id": "notification-a7198",
+    "storage_bucket": "notification-a7198.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227905948756:android:b29fb934d8cbff29f3b1c1",
+        "android_client_info": {
+          "package_name": "com.magadh.marketing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227905948756-ak2dtvjb08f40nndil89c9ibq0n9pqc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5R67fgG-6jfVnlhaBM4hulY2StvZ5J3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227905948756-ak2dtvjb08f40nndil89c9ibq0n9pqc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

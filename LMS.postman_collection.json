@@ -1,0 +1,2539 @@
+{
+	"info": {
+		"_postman_id": "5ace6cd1-e16f-4683-90e8-81eed2891288",
+		"name": "LMS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11583515"
+	},
+	"item": [
+		{
+			"name": "EMPOYEE",
+			"item": [
+				{
+					"name": "Authorization",
+					"item": [
+						{
+							"name": "LOGIN_EMPLOYEE",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"empId\":2008\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}employe/login",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "VERIFY_OTP",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"empId\":2007,\n    \"otp\":7018\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}employe/login/otp/verification",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"login",
+										"otp",
+										"verification"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "VERIFY_OTP",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"number\":9262715527,\n    \"otp\":6697\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}employe/login/otp/verification",
+											"host": [
+												"{{url}}employe"
+											],
+											"path": [
+												"login",
+												"otp",
+												"verification"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "861"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"35d-1EWVcPmd1Qg1gNRHm+/JAqcjDt4\""
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 24 Jan 2023 07:18:08 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2NmN2Y5MjQ1NzcyZTVkZjU5OTM2MjMiLCJlbWFpbCI6InVtZXNoQGdtYWlsLmNvbSIsIm5hbWUiOiJVTUVTSCBLVU1BUiIsIm51bWJlciI6IjkyNjI3MTU1MjciLCJpYXQiOjE2NzQ1NDQ2ODcsImV4cCI6MTY3NDk3NjY4N30.iee7ErH828JUYnZ_yeog7ftmr2i74Q0KXcC56XMY__4\",\n    \"emp\": {\n        \"_id\": \"63cf7f9245772e5df5993623\",\n        \"name\": \"UMESH KUMAR\",\n        \"email\": \"umesh@gmail.com\",\n        \"empId\": \"2001\",\n        \"dateOfJoining\": 1672012800000,\n        \"inProbabtion\": true,\n        \"probabtionEnd\": 1690309800000,\n        \"probabtionPeriod\": 6,\n        \"number\": 9262715527,\n        \"createdAt\": \"2023-01-24T06:49:54.456Z\",\n        \"updatedAt\": \"2023-01-24T07:18:07.997Z\",\n        \"__v\": 0,\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2NmN2Y5MjQ1NzcyZTVkZjU5OTM2MjMiLCJlbWFpbCI6InVtZXNoQGdtYWlsLmNvbSIsIm5hbWUiOiJVTUVTSCBLVU1BUiIsIm51bWJlciI6IjkyNjI3MTU1MjciLCJpYXQiOjE2NzQ1NDQ2ODcsImV4cCI6MTY3NDk3NjY4N30.iee7ErH828JUYnZ_yeog7ftmr2i74Q0KXcC56XMY__4\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "USER_PROFILE",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{url}}employe/profile",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"profile"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "USER_PROFILE",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{token}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}employe/profile",
+											"host": [
+												"{{url}}employe"
+											],
+											"path": [
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 24 Jan 2023 11:19:23 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "608"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"260-lhznDYQO3deh5nq01aHmUVDrVkc\""
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"_id\": \"63ce1329e4cf8ec791d75cfd\",\n    \"name\": \"Gaurav Kumar\",\n    \"email\": \"gaurav4149singh@outlook.com\",\n    \"empId\": \"2007\",\n    \"dateOfJoining\": 1659378600000,\n    \"inProbabtion\": true,\n    \"probabtionEnd\": 1675209600000,\n    \"probabtionPeriod\": 6,\n    \"createdAt\": \"2023-01-23T04:55:05.430Z\",\n    \"updatedAt\": \"2023-01-24T10:39:02.464Z\",\n    \"__v\": 0,\n    \"number\": 9262715527,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2NlMTMyOWU0Y2Y4ZWM3OTFkNzVjZmQiLCJlbWFpbCI6ImdhdXJhdjQxNDlzaW5naEBvdXRsb29rLmNvbSIsIm5hbWUiOiJHYXVyYXYgS3VtYXIiLCJudW1iZXIiOiI5MjYyNzE1NTI3IiwiaWF0IjoxNjc0NTU2NzQyLCJleHAiOjE2NzQ5ODg3NDJ9.h7q9_f-Z-IiHqQ70HJ-bHyM0_My-2HBRlpxw6zFKNgc\"\n}"
+								}
+							]
+						},
+						{
+							"name": "GET_COMPANY_DETAILS",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}employe/company-details",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"company-details"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Leaves",
+					"item": [
+						{
+							"name": "GET_LEAVES_CREDIT",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}employe/leaves?startDate=2023-01-26&endDate=2023-01-28",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"leaves"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "skip",
+											"value": "0",
+											"disabled": true
+										},
+										{
+											"key": "startDate",
+											"value": "2023-01-26"
+										},
+										{
+											"key": "endDate",
+											"value": "2023-01-28"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVES_CREDIT",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}employe/leaves?userId=63cf80761ee2f8f5e2101c10",
+											"host": [
+												"{{url}}employe"
+											],
+											"path": [
+												"leaves"
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "63cf80761ee2f8f5e2101c10"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1987"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"7c3-DiZjGXCvX2arQN5jMUFDzRIc4uU\""
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 24 Jan 2023 06:53:56 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"leaves\": [\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c14\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 8\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c15\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 9\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c16\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 10\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c17\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 11\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c18\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 12\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c19\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2023,\n            \"months\": 1\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c1a\",\n            \"defaultCreditValue\": 3,\n            \"remainingLeave\": 3,\n            \"leaveType\": \"BONUS_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 8\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c1b\",\n            \"defaultCreditValue\": 2,\n            \"remainingLeave\": 2,\n            \"leaveType\": \"PL\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 1\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c1c\",\n            \"defaultCreditValue\": 2,\n            \"remainingLeave\": 2,\n            \"leaveType\": \"PL\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2023,\n            \"months\": 1\n        }\n    ],\n    \"totalCredit\": 13,\n    \"totalUsed\": 0,\n    \"totalRemaining\": 13\n}"
+								}
+							]
+						},
+						{
+							"name": "LEAVE_REQUEST",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"leaveId\": \"63d014157e2ec7f44ee17b9b\",\n    \"reason\": \"testig\",\n    \"value\": 0.5\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}employe/leave-request",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"leave-request"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "LEAVE_REQUEST",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"leaveId\": \"63d014157e2ec7f44ee17b9b\",\n    \"reason\": \"testig\",\n    \"value\": 0.5\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}employe/leave-request",
+											"host": [
+												"{{url}}employe"
+											],
+											"path": [
+												"leave-request"
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "41"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"29-0rTeqz0Ny/WHBk11DLWLkY2UeaQ\""
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 29 Jan 2023 14:51:16 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"You have no remaining leave\"\n}"
+								}
+							]
+						},
+						{
+							"name": "GET_LEAVE_LEDGER",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}employe/settle?startDate=2023-01-01&endDate=2023-01-20",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"settle"
+									],
+									"query": [
+										{
+											"key": "startDate",
+											"value": "2023-01-01"
+										},
+										{
+											"key": "endDate",
+											"value": "2023-01-20"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVE_LEDGER",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}leaves/settle?userId=63b7a33bd941f9ca7fa400f9&startDate=1672597800000&endDate=1675017000000",
+											"host": [
+												"{{url}}leaves"
+											],
+											"path": [
+												"settle"
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "63b7a33bd941f9ca7fa400f9"
+												},
+												{
+													"key": "startDate",
+													"value": "1672597800000"
+												},
+												{
+													"key": "endDate",
+													"value": "1675017000000"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "563"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"233-X58AoBlwHB/ETCEAJ0Z5TFP/X3k\""
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 16 Jan 2023 16:33:01 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"ledger\": [\n            {\n                \"date\": 1673884896374,\n                \"value\": 1,\n                \"_id\": \"63c57517c7e7f048063261c9\",\n                \"reason\": \"Some reasin of settelment\"\n            }\n        ],\n        \"totalusedLeaves\": 1,\n        \"leaveTypeId\": \"63b914886121ff6761f2c246\",\n        \"leaveTypeName\": \"BONUS\",\n        \"limit\": 6,\n        \"remainingLeaves\": 5\n    },\n    {\n        \"ledger\": [\n            {\n                \"date\": 1673883424661,\n                \"value\": 1,\n                \"_id\": \"63c56f27625dce3bc7d27a82\",\n                \"reason\": \"Some reasin of settelment\"\n            },\n            {\n                \"date\": 1673883453016,\n                \"value\": 1,\n                \"_id\": \"63c56f3e92f3bdca632c8f22\",\n                \"reason\": \"Some reasin of settelment\"\n            }\n        ],\n        \"totalusedLeaves\": 2,\n        \"leaveTypeId\": \"63b914f6971e685db66432b6\",\n        \"leaveTypeName\": \"SL\",\n        \"limit\": 2,\n        \"remainingLeaves\": 0\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "GET_PREV_ATTENDANCE",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}attendance/prev-attendance",
+									"host": [
+										"{{url}}attendance"
+									],
+									"path": [
+										"prev-attendance"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_PREV_ATTENDANCE",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{token}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}attendance/prev-attendance",
+											"host": [
+												"{{url}}attendance"
+											],
+											"path": [
+												"prev-attendance"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "818"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"332-BVfueqjZCcuX1zwDLlS3v/stXq0\""
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 27 Jan 2023 05:35:06 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"_id\": \"63d2c7b6e4b854a67367d0cf\",\n        \"user\": \"63ce1a8ce4cf8ec791d75d7d\",\n        \"checkIn\": \"2023-01-26T18:34:30.340Z\",\n        \"checkOut\": \"2023-01-26T18:34:22.498Z\",\n        \"checkInTimeStamps\": 1674757729931,\n        \"checkInLocation\": [\n            28.487261710800315,\n            77.11403432346862\n        ],\n        \"checkOutLocation\": [],\n        \"state\": \"CHECKED_IN\",\n        \"works\": [],\n        \"createdAt\": \"2023-01-26T18:34:30.349Z\",\n        \"updatedAt\": \"2023-01-26T18:34:30.349Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"63d118f4e521edccadcc523f\",\n        \"user\": \"63ce1a8ce4cf8ec791d75d7d\",\n        \"checkIn\": \"2023-01-25T11:56:36.556Z\",\n        \"checkOut\": \"2023-01-25T12:10:01.201Z\",\n        \"checkInLocation\": [\n            28.487261710800315,\n            77.11403432346862\n        ],\n        \"checkOutLocation\": [\n            28.487261710800315,\n            77.11403432346862\n        ],\n        \"state\": \"CHECKED_OUT\",\n        \"works\": [\n            \"Added .env in project\",\n            \"Updated\",\n            \"Test\",\n            \"Hello world\",\n            \"Testing\"\n        ],\n        \"createdAt\": \"2023-01-25T11:56:36.566Z\",\n        \"updatedAt\": \"2023-01-26T18:34:02.609Z\",\n        \"__v\": 0\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "GET_LEAVE_REQUEST",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}employe/leave-request?limit=2&skip=0&status=pending",
+									"host": [
+										"{{url}}employe"
+									],
+									"path": [
+										"leave-request"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "2"
+										},
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "leaveId",
+											"value": "63d014157e2ec7f44ee17b9b",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "pending",
+											"description": "pending,approved,rejected"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVE_REQUEST",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{token}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}employe/leave-request?limit=2&skip=0&leaveId=63d014157e2ec7f44ee17b9b&status=pending",
+											"host": [
+												"{{url}}employe"
+											],
+											"path": [
+												"leave-request"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "2"
+												},
+												{
+													"key": "skip",
+													"value": "0"
+												},
+												{
+													"key": "leaveId",
+													"value": "63d014157e2ec7f44ee17b9b"
+												},
+												{
+													"key": "status",
+													"value": "pending",
+													"description": "pending,approved,rejected"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "915"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"393-0YK2wzHkaBXbrEd/lkM462h6jTo\""
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 29 Jan 2023 15:04:08 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"leaveRequests\": [\n        {\n            \"_id\": \"63d687e3fb569c0174dec209\",\n            \"userId\": \"63d014147e2ec7f44ee17b97\",\n            \"leaveId\": {\n                \"_id\": \"63d014157e2ec7f44ee17b9b\",\n                \"user\": \"63d014147e2ec7f44ee17b97\",\n                \"leaveType\": \"63cff8d685b72404a5369919\",\n                \"value\": 2,\n                \"year\": 2022,\n                \"months\": 8,\n                \"createdAt\": \"2022-08-02T00:00:00.000Z\",\n                \"__v\": 0,\n                \"updatedAt\": \"2023-01-24T17:23:33.019Z\"\n            },\n            \"status\": \"pending\",\n            \"reason\": \"testig\",\n            \"value\": 0.5,\n            \"createdAt\": \"2023-01-29T14:51:15.831Z\",\n            \"updatedAt\": \"2023-01-29T14:51:15.831Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"63d687e2fb569c0174dec206\",\n            \"userId\": \"63d014147e2ec7f44ee17b97\",\n            \"leaveId\": {\n                \"_id\": \"63d014157e2ec7f44ee17b9b\",\n                \"user\": \"63d014147e2ec7f44ee17b97\",\n                \"leaveType\": \"63cff8d685b72404a5369919\",\n                \"value\": 2,\n                \"year\": 2022,\n                \"months\": 8,\n                \"createdAt\": \"2022-08-02T00:00:00.000Z\",\n                \"__v\": 0,\n                \"updatedAt\": \"2023-01-24T17:23:33.019Z\"\n            },\n            \"status\": \"pending\",\n            \"reason\": \"testig\",\n            \"value\": 0.5,\n            \"createdAt\": \"2023-01-29T14:51:14.805Z\",\n            \"updatedAt\": \"2023-01-29T14:51:14.805Z\",\n            \"__v\": 0\n        }\n    ],\n    \"count\": 4\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Attendance",
+					"item": [
+						{
+							"name": "CHECK_TODAY_ATTENDANCE_STATUS",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}attendance/status?date=2023-01-28",
+									"host": [
+										"{{url}}attendance"
+									],
+									"path": [
+										"status"
+									],
+									"query": [
+										{
+											"key": "date",
+											"value": "2023-01-28"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "CHECK_TODAY_ATTENDANCE_STATUS",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{token}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}attendance/status?date=2023-01-27",
+											"host": [
+												"{{url}}attendance"
+											],
+											"path": [
+												"status"
+											],
+											"query": [
+												{
+													"key": "date",
+													"value": "2023-01-27"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "500"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"1f4-jW5hcgAtmUtngXy0kJQ3zMnsRUc\""
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 27 Jan 2023 05:53:15 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"_id\": \"63d2c7b6e4b854a67367d0cf\",\n    \"user\": \"63ce1a8ce4cf8ec791d75d7d\",\n    \"checkIn\": \"2023-01-26T18:34:30.340Z\",\n    \"checkOut\": \"2023-01-27T05:40:49.813Z\",\n    \"checkInTimeStamps\": 1674757729931,\n    \"checkInLocation\": [\n        28.487261710800315,\n        77.11403432346862\n    ],\n    \"checkOutLocation\": [\n        28.487261710800315,\n        77.11403432346862\n    ],\n    \"state\": \"CHECKED_OUT\",\n    \"works\": [\n        \"Added .env in project\",\n        \"Test\",\n        \"Hello world\",\n        \"Testing\"\n    ],\n    \"createdAt\": \"2023-01-26T18:34:30.349Z\",\n    \"updatedAt\": \"2023-01-27T05:41:49.174Z\",\n    \"__v\": 0,\n    \"checkOutTimeStamps\": 1674757729931\n}"
+								}
+							]
+						},
+						{
+							"name": "CHECK-IN-OUT",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"lat\":28.487261710800315,\n    \"long\": 77.11403432346862,\n    \"time\":1674811892632\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}attendance/check-in-out",
+									"host": [
+										"{{url}}attendance"
+									],
+									"path": [
+										"check-in-out"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "CHECK-IN-OUT",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"lat\":28.487261710800315,\n    \"long\": 77.11403432346862,\n    \"time\":1674757729931,\n    \"works\":[\n        \"Added .env in project\",\n        \"Test\",\n        \"Hello world\",\n        \"Testing\"\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}attendance/check-in-out",
+											"host": [
+												"{{url}}attendance"
+											],
+											"path": [
+												"check-in-out"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "556"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"22c-EZ6xX1v5Qowh3r1G0r/ejb2myNI\""
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 27 Jan 2023 05:41:49 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"You have already checked out\",\n    \"attendance\": {\n        \"_id\": \"63d2c7b6e4b854a67367d0cf\",\n        \"user\": \"63ce1a8ce4cf8ec791d75d7d\",\n        \"checkIn\": \"2023-01-26T18:34:30.340Z\",\n        \"checkOut\": \"2023-01-27T05:40:49.813Z\",\n        \"checkInTimeStamps\": 1674757729931,\n        \"checkInLocation\": [\n            28.487261710800315,\n            77.11403432346862\n        ],\n        \"checkOutLocation\": [\n            28.487261710800315,\n            77.11403432346862\n        ],\n        \"state\": \"CHECKED_OUT\",\n        \"works\": [\n            \"Added .env in project\",\n            \"Test\",\n            \"Hello world\",\n            \"Testing\"\n        ],\n        \"createdAt\": \"2023-01-26T18:34:30.349Z\",\n        \"updatedAt\": \"2023-01-27T05:41:49.174Z\",\n        \"__v\": 0,\n        \"checkOutTimeStamps\": 1674757729931\n    }\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ADMIN",
+			"item": [
+				{
+					"name": "Leave Type",
+					"item": [
+						{
+							"name": "GET_LEAVE_TYPES",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}leaves/types",
+									"host": [
+										"{{url}}leaves"
+									],
+									"path": [
+										"types"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVE_TYPES",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}leaves/types",
+											"host": [
+												"{{url}}leaves"
+											],
+											"path": [
+												"types"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "366"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"16e-zmbqa/5CMO+iaUzCfM/hUVWV/Oo\""
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 16 Jan 2023 15:22:16 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"_id\": \"63b65a724718b51fb6d9b374\",\n        \"name\": \"SL\",\n        \"description\": \"Some Leaves\",\n        \"value\": 1,\n        \"inProbabtion\": true,\n        \"oneTime\": false\n    },\n    {\n        \"_id\": \"63b65bd34718b51fb6d9b377\",\n        \"name\": \"BONUS\",\n        \"description\": \"BONUS Leave\",\n        \"value\": 6,\n        \"afterAMonths\": 6,\n        \"oneTime\": true\n    },\n    {\n        \"_id\": \"63b65c294718b51fb6d9b37a\",\n        \"name\": \"SL\",\n        \"description\": \"SL After 6 Months\",\n        \"value\": 2,\n        \"afterAMonths\": 6,\n        \"oneTime\": false\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "CREATE_LEAVE_TYPES",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"CL\",\n    \"description\": \"THIS IS A PERSONAL LEAVE WHICH WILL CREDIT IN EVERY YEAR FOR EVERY EMPLOYEE\",\n    \"value\": 3,\n    \"inProbabtion\": true,\n    \"oneTime\": true,\n    \"yearlyCredit\": false\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}leaves/type",
+									"host": [
+										"{{url}}leaves"
+									],
+									"path": [
+										"type"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "CREATE_LEAVE",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\":\"CL\",\n    \"description\":\"Some Leaves\",\n    \"value\":1,\n    \"afterAMonths\":6,\n    \"beforeAMonths\":6,\n    \"inProbabtion\":true\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://api-demo.lms.booringcodes.in/api/leaves/type",
+											"protocol": "http",
+											"host": [
+												"api-demo",
+												"lms",
+												"booringcodes",
+												"in"
+											],
+											"path": [
+												"api",
+												"leaves",
+												"type"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "190"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"be-OWSs+Z0y5ucHVfMCIUxz9rtjLnc\""
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 05 Jan 2023 04:52:09 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"name\": \"CL\",\n    \"description\": \"Some Leaves\",\n    \"value\": 1,\n    \"inProbabtion\": true,\n    \"_id\": \"63b65779838520c41f36cd69\",\n    \"createdAt\": \"2023-01-05T04:52:09.234Z\",\n    \"updatedAt\": \"2023-01-05T04:52:09.234Z\",\n    \"__v\": 0\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Employe",
+					"item": [
+						{
+							"name": "CREATE_EMPLOYEE",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Uttam Kumar\",\n    \"email\": \"ut@gmail.com\",\n    \"empId\": 2007,\n    \"number\":9508649243,\n    \"dateOfJoining\": 1659398400000,\n    \"probabtionPeriod\": 6\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}admin/create-employe",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"create-employe"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "CREATE_EMPLOYEE",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"Gaurav Kumar\",\n    \"email\": \"test@gmail.com\",\n    \"empId\": 2007,\n    \"dateOfJoining\": 1674324104132,\n    \"probabtionPeriod\": 6\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}employe",
+											"host": [
+												"{{url}}employe"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 21 Jan 2023 19:36:10 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "283"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"11b-+9DnIHH/LVurgeuof498xVyIgag\""
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"name\": \"Gaurav Kumar\",\n    \"email\": \"test@gmail.com\",\n    \"empId\": \"2007\",\n    \"dateOfJoining\": 1674324104132,\n    \"inProbabtion\": true,\n    \"probabtionEnd\": 1692576000000,\n    \"probabtionPeriod\": 6,\n    \"_id\": \"63cc3eaa6472381b623f3c35\",\n    \"createdAt\": \"2023-01-21T19:36:10.361Z\",\n    \"updatedAt\": \"2023-01-21T19:36:10.361Z\",\n    \"__v\": 0\n}"
+								}
+							]
+						},
+						{
+							"name": "GET_EMPLOYE",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}admin/employe?skip=0&limit=10",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"employe"
+									],
+									"query": [
+										{
+											"key": "startDate",
+											"value": "1656700200002",
+											"description": "Lower Bound",
+											"disabled": true
+										},
+										{
+											"key": "endDate",
+											"value": "1659378600002",
+											"disabled": true
+										},
+										{
+											"key": "search",
+											"value": "Gaurav Kumar",
+											"disabled": true
+										},
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										},
+										{
+											"key": "sort",
+											"value": "{\"name\":-1}",
+											"disabled": true
+										},
+										{
+											"key": "months",
+											"value": "6",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_EMPLOYE",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}employe?startDate=1659724200000&endDate=1659810600000&search=Gaurav Kumar",
+											"host": [
+												"{{url}}employe"
+											],
+											"query": [
+												{
+													"key": "startDate",
+													"value": "1659724200000"
+												},
+												{
+													"key": "endDate",
+													"value": "1659810600000"
+												},
+												{
+													"key": "months",
+													"value": "",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "Gaurav Kumar"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "225"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"e1-KRT8We7QBAPxJtpPleMo2EvwM8c\""
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 04 Jan 2023 11:09:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"_id\": \"63b557f16355da530549014c\",\n        \"name\": \"Gaurav Kumar\",\n        \"email\": \"gaurav4149singh@gmail.com\",\n        \"empId\": \"2007\",\n        \"dateOfJoining\": 1659724200000,\n        \"createdAt\": \"2023-01-04T10:41:53.275Z\",\n        \"updatedAt\": \"2023-01-04T10:41:53.275Z\",\n        \"__v\": 0\n    }\n]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Leave",
+					"item": [
+						{
+							"name": "GET_SETTLED_LEAVES",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}leaves/settle?userId=63ce1329e4cf8ec791d75cfd&startDate=2022-01-01&endDate=2023-01-30",
+									"host": [
+										"{{url}}leaves"
+									],
+									"path": [
+										"settle"
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "63ce1329e4cf8ec791d75cfd"
+										},
+										{
+											"key": "startDate",
+											"value": "2022-01-01"
+										},
+										{
+											"key": "endDate",
+											"value": "2023-01-30"
+										},
+										{
+											"key": "leaveId",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVES",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}leaves?userId=63b7a2afd941f9ca7fa400f6",
+											"host": [
+												"{{url}}leaves"
+											],
+											"query": [
+												{
+													"key": "current",
+													"value": "true",
+													"disabled": true
+												},
+												{
+													"key": "userId",
+													"value": "63b7a2afd941f9ca7fa400f6"
+												},
+												{
+													"key": "months",
+													"value": "1",
+													"disabled": true
+												},
+												{
+													"key": "year",
+													"value": "2023",
+													"disabled": true
+												},
+												{
+													"key": "leaveId",
+													"value": null,
+													"disabled": true
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "291"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"123-j2Zlzed3icnJEMUMHYvcLG9RnNU\""
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 16 Jan 2023 15:20:34 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"_id\": \"63b9122bc18b64771a2d6681\",\n        \"user\": \"63b7a2afd941f9ca7fa400f6\",\n        \"leaveType\": null,\n        \"value\": 3,\n        \"year\": 2023,\n        \"months\": 1\n    },\n    {\n        \"_id\": \"63b91325ab9f1913a4403a08\",\n        \"user\": \"63b7a2afd941f9ca7fa400f6\",\n        \"leaveType\": {\n            \"_id\": \"63b65a724718b51fb6d9b374\",\n            \"name\": \"SL\",\n            \"value\": 1\n        },\n        \"value\": 1,\n        \"year\": 2023,\n        \"months\": 1\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "LEAVE_SETTELMENT",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"leave\": \"63c7c9b6698d9716ef3a4ee2\",\n    \"user\": \"63c67fd46b6aa1816e2175c9\",\n    \"settledAmount\": 0.5,\n    \"settlementReason\": \"Some reasin of settelment\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}leaves/settle",
+									"host": [
+										"{{url}}leaves"
+									],
+									"path": [
+										"settle"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "LEAVE_SETTELMENT",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"leave\": \"63b914f6971e685db66432b6\",\n    \"user\": \"63b7a33bd941f9ca7fa400f9\",\n    \"settledAmount\": 1,\n    \"settlementReason\": \"Some reasin of settelment\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}leaves/settle",
+											"host": [
+												"{{url}}leaves"
+											],
+											"path": [
+												"settle"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "288"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"120-2pnZae0ri61C7CgEGN4MPCYC/Rk\""
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 16 Jan 2023 15:34:14 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"date\": \"2023-01-16T15:32:01.671Z\",\n    \"leave\": \"63b914f6971e685db66432b6\",\n    \"user\": \"63b7a33bd941f9ca7fa400f9\",\n    \"settledAmount\": 1,\n    \"settlementReason\": \"Some reasin of settelment\",\n    \"_id\": \"63c56e76c3240fc049e198d3\",\n    \"createdAt\": \"2023-01-16T15:34:14.350Z\",\n    \"updatedAt\": \"2023-01-16T15:34:14.350Z\",\n    \"__v\": 0\n}"
+								}
+							]
+						},
+						{
+							"name": "GET_LEAVES_CREDIT",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"userId\": \"\",\n    \"limit\": \"\",\n    \"skip\": \"\",\n    \"startDate\": \"\",\n    \"endDate\": \"\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}admin/leaves-credits?startDate=2023-01-01&endDate=2023-01-26&userId=63ce1329e4cf8ec791d75cfd",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"leaves-credits"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "6",
+											"disabled": true
+										},
+										{
+											"key": "skip",
+											"value": "0",
+											"disabled": true
+										},
+										{
+											"key": "startDate",
+											"value": "2023-01-01"
+										},
+										{
+											"key": "endDate",
+											"value": "2023-01-26"
+										},
+										{
+											"key": "userId",
+											"value": "63ce1329e4cf8ec791d75cfd"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVES_CREDIT",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}employe/leaves?userId=63cf80761ee2f8f5e2101c10",
+											"host": [
+												"{{url}}employe"
+											],
+											"path": [
+												"leaves"
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "63cf80761ee2f8f5e2101c10"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1987"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"7c3-DiZjGXCvX2arQN5jMUFDzRIc4uU\""
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 24 Jan 2023 06:53:56 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"leaves\": [\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c14\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 8\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c15\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 9\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c16\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 10\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c17\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 11\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c18\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 12\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c19\",\n            \"defaultCreditValue\": 1,\n            \"remainingLeave\": 1,\n            \"leaveType\": \"SL_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2023,\n            \"months\": 1\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c1a\",\n            \"defaultCreditValue\": 3,\n            \"remainingLeave\": 3,\n            \"leaveType\": \"BONUS_IN_PROBATION\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 8\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c1b\",\n            \"defaultCreditValue\": 2,\n            \"remainingLeave\": 2,\n            \"leaveType\": \"PL\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2022,\n            \"months\": 1\n        },\n        {\n            \"used\": 0,\n            \"user\": \"63cf80761ee2f8f5e2101c10\",\n            \"leaveId\": \"63cf80761ee2f8f5e2101c1c\",\n            \"defaultCreditValue\": 2,\n            \"remainingLeave\": 2,\n            \"leaveType\": \"PL\",\n            \"createdAt\": \"2023-01-24T06:53:42.726Z\",\n            \"year\": 2023,\n            \"months\": 1\n        }\n    ],\n    \"totalCredit\": 13,\n    \"totalUsed\": 0,\n    \"totalRemaining\": 13\n}"
+								}
+							]
+						},
+						{
+							"name": "GET_LEAVES_REQUESTS",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}admin/leaves-request?limit=2&skip=0&status=pending&userId=userId&leaveId=LeaveId",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"leaves-request"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "2"
+										},
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "status",
+											"value": "pending",
+											"description": "[pending,approved,rejected]"
+										},
+										{
+											"key": "userId",
+											"value": "userId"
+										},
+										{
+											"key": "leaveId",
+											"value": "LeaveId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVES_REQUESTS",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{adminToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}admin/leaves-request?limit=2&skip=0",
+											"host": [
+												"{{url}}admin"
+											],
+											"path": [
+												"leaves-request"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "2"
+												},
+												{
+													"key": "skip",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "915"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"393-0YK2wzHkaBXbrEd/lkM462h6jTo\""
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 29 Jan 2023 15:10:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"leaveRequests\": [\n        {\n            \"_id\": \"63d687e3fb569c0174dec209\",\n            \"userId\": \"63d014147e2ec7f44ee17b97\",\n            \"leaveId\": {\n                \"_id\": \"63d014157e2ec7f44ee17b9b\",\n                \"user\": \"63d014147e2ec7f44ee17b97\",\n                \"leaveType\": \"63cff8d685b72404a5369919\",\n                \"value\": 2,\n                \"year\": 2022,\n                \"months\": 8,\n                \"createdAt\": \"2022-08-02T00:00:00.000Z\",\n                \"__v\": 0,\n                \"updatedAt\": \"2023-01-24T17:23:33.019Z\"\n            },\n            \"status\": \"pending\",\n            \"reason\": \"testig\",\n            \"value\": 0.5,\n            \"createdAt\": \"2023-01-29T14:51:15.831Z\",\n            \"updatedAt\": \"2023-01-29T14:51:15.831Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"63d687e2fb569c0174dec206\",\n            \"userId\": \"63d014147e2ec7f44ee17b97\",\n            \"leaveId\": {\n                \"_id\": \"63d014157e2ec7f44ee17b9b\",\n                \"user\": \"63d014147e2ec7f44ee17b97\",\n                \"leaveType\": \"63cff8d685b72404a5369919\",\n                \"value\": 2,\n                \"year\": 2022,\n                \"months\": 8,\n                \"createdAt\": \"2022-08-02T00:00:00.000Z\",\n                \"__v\": 0,\n                \"updatedAt\": \"2023-01-24T17:23:33.019Z\"\n            },\n            \"status\": \"pending\",\n            \"reason\": \"testig\",\n            \"value\": 0.5,\n            \"createdAt\": \"2023-01-29T14:51:14.805Z\",\n            \"updatedAt\": \"2023-01-29T14:51:14.805Z\",\n            \"__v\": 0\n        }\n    ],\n    \"count\": 4\n}"
+								}
+							]
+						},
+						{
+							"name": "approve or reject",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"status\": \"approved || rejected\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}admin/leaves-request/:userid/approve-reject",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"leaves-request",
+										":userid",
+										"approve-reject"
+									],
+									"variable": [
+										{
+											"key": "userid",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVES_REQUESTS",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{adminToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}admin/leaves-request?limit=2&skip=0",
+											"host": [
+												"{{url}}admin"
+											],
+											"path": [
+												"leaves-request"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "2"
+												},
+												{
+													"key": "skip",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "915"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"393-0YK2wzHkaBXbrEd/lkM462h6jTo\""
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 29 Jan 2023 15:10:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"leaveRequests\": [\n        {\n            \"_id\": \"63d687e3fb569c0174dec209\",\n            \"userId\": \"63d014147e2ec7f44ee17b97\",\n            \"leaveId\": {\n                \"_id\": \"63d014157e2ec7f44ee17b9b\",\n                \"user\": \"63d014147e2ec7f44ee17b97\",\n                \"leaveType\": \"63cff8d685b72404a5369919\",\n                \"value\": 2,\n                \"year\": 2022,\n                \"months\": 8,\n                \"createdAt\": \"2022-08-02T00:00:00.000Z\",\n                \"__v\": 0,\n                \"updatedAt\": \"2023-01-24T17:23:33.019Z\"\n            },\n            \"status\": \"pending\",\n            \"reason\": \"testig\",\n            \"value\": 0.5,\n            \"createdAt\": \"2023-01-29T14:51:15.831Z\",\n            \"updatedAt\": \"2023-01-29T14:51:15.831Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"63d687e2fb569c0174dec206\",\n            \"userId\": \"63d014147e2ec7f44ee17b97\",\n            \"leaveId\": {\n                \"_id\": \"63d014157e2ec7f44ee17b9b\",\n                \"user\": \"63d014147e2ec7f44ee17b97\",\n                \"leaveType\": \"63cff8d685b72404a5369919\",\n                \"value\": 2,\n                \"year\": 2022,\n                \"months\": 8,\n                \"createdAt\": \"2022-08-02T00:00:00.000Z\",\n                \"__v\": 0,\n                \"updatedAt\": \"2023-01-24T17:23:33.019Z\"\n            },\n            \"status\": \"pending\",\n            \"reason\": \"testig\",\n            \"value\": 0.5,\n            \"createdAt\": \"2023-01-29T14:51:14.805Z\",\n            \"updatedAt\": \"2023-01-29T14:51:14.805Z\",\n            \"__v\": 0\n        }\n    ],\n    \"count\": 4\n}"
+								}
+							]
+						},
+						{
+							"name": "GET_LEAVE_HISTORY_GROUP_BYUSER",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}admin/leave-history",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"leave-history"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_LEAVE_HISTORY_GROUP_BYUSER",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{adminToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}admin/leave-history",
+											"host": [
+												"{{url}}admin"
+											],
+											"path": [
+												"leave-history"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 02 Feb 2023 10:20:05 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1010"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"3f2-l+DFMM4ZYxVcVi+MocPgmN/CFfY\""
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"remaining\": 10,\n        \"used\": 8,\n        \"defaultValue\": 18,\n        \"user_name\": \"satyam kumar\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b646\",\n        \"user_empId\": \"2001\"\n    },\n    {\n        \"remaining\": 2,\n        \"used\": 0,\n        \"defaultValue\": 2,\n        \"user_name\": \"UMESH KUMAR\",\n        \"user_id\": \"63d90be0c2fa85fc3cc6b6ae\",\n        \"user_empId\": \"2011\"\n    },\n    {\n        \"remaining\": 9,\n        \"used\": 7,\n        \"defaultValue\": 16,\n        \"user_name\": \"GAURAV\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b672\",\n        \"user_empId\": \"2007\"\n    },\n    {\n        \"remaining\": 4.5,\n        \"used\": 2.5,\n        \"defaultValue\": 7,\n        \"user_name\": \"UTTAM KUMAR\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b685\",\n        \"user_empId\": \"2008\"\n    },\n    {\n        \"remaining\": 18.5,\n        \"used\": 9.5,\n        \"defaultValue\": 28,\n        \"user_name\": \"demo\",\n        \"user_id\": \"63d9fa28565d89348a9b16fe\",\n        \"user_empId\": \"3001\"\n    },\n    {\n        \"remaining\": 5,\n        \"used\": 1,\n        \"defaultValue\": 6,\n        \"user_name\": \"SATYAM KUMAR UI&UX\",\n        \"user_id\": \"63d90be0c2fa85fc3cc6b694\",\n        \"user_empId\": \"2009\"\n    },\n    {\n        \"remaining\": 12,\n        \"used\": 4,\n        \"defaultValue\": 16,\n        \"user_name\": \"SUDHANSHU\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b65f\",\n        \"user_empId\": \"2006\"\n    },\n    {\n        \"remaining\": 4,\n        \"used\": 2,\n        \"defaultValue\": 6,\n        \"user_name\": \"RAJ PURKAIT\",\n        \"user_id\": \"63d90be0c2fa85fc3cc6b6a1\",\n        \"user_empId\": \"2010\"\n    }\n]"
+								},
+								{
+									"name": "GET_LEAVE_HISTORY_GROUP_BYUSER",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{adminToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}admin/leave-history",
+											"host": [
+												"{{url}}admin"
+											],
+											"path": [
+												"leave-history"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 02 Feb 2023 10:23:39 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1010"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"3f2-N8kUeXsmBIXqCr2iIqoU/js/pEU\""
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"remaining\": 9,\n        \"used\": 7,\n        \"defaultValue\": 16,\n        \"user_name\": \"GAURAV\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b672\",\n        \"user_empId\": \"2007\"\n    },\n    {\n        \"remaining\": 2,\n        \"used\": 0,\n        \"defaultValue\": 2,\n        \"user_name\": \"UMESH KUMAR\",\n        \"user_id\": \"63d90be0c2fa85fc3cc6b6ae\",\n        \"user_empId\": \"2011\"\n    },\n    {\n        \"remaining\": 10,\n        \"used\": 8,\n        \"defaultValue\": 18,\n        \"user_name\": \"satyam kumar\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b646\",\n        \"user_empId\": \"2001\"\n    },\n    {\n        \"remaining\": 18.5,\n        \"used\": 9.5,\n        \"defaultValue\": 28,\n        \"user_name\": \"demo\",\n        \"user_id\": \"63d9fa28565d89348a9b16fe\",\n        \"user_empId\": \"3001\"\n    },\n    {\n        \"remaining\": 4.5,\n        \"used\": 2.5,\n        \"defaultValue\": 7,\n        \"user_name\": \"UTTAM KUMAR\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b685\",\n        \"user_empId\": \"2008\"\n    },\n    {\n        \"remaining\": 12,\n        \"used\": 4,\n        \"defaultValue\": 16,\n        \"user_name\": \"SUDHANSHU\",\n        \"user_id\": \"63d90bdfc2fa85fc3cc6b65f\",\n        \"user_empId\": \"2006\"\n    },\n    {\n        \"remaining\": 4,\n        \"used\": 2,\n        \"defaultValue\": 6,\n        \"user_name\": \"RAJ PURKAIT\",\n        \"user_id\": \"63d90be0c2fa85fc3cc6b6a1\",\n        \"user_empId\": \"2010\"\n    },\n    {\n        \"remaining\": 5,\n        \"used\": 1,\n        \"defaultValue\": 6,\n        \"user_name\": \"SATYAM KUMAR UI&UX\",\n        \"user_id\": \"63d90be0c2fa85fc3cc6b694\",\n        \"user_empId\": \"2009\"\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "DELETE_SETTLED_LEAVES",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}admin/delete-settlement-leaves?leaveId=63db5094beb290e05f85fe66",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"delete-settlement-leaves"
+									],
+									"query": [
+										{
+											"key": "leaveId",
+											"value": "63db5094beb290e05f85fe66"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Authorization",
+					"item": [
+						{
+							"name": "LOGIN_ADMIN",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\":\"Accounts@magadh.tech\",\n    \"password\":\"admin0001\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}admin/login",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "TOKEN_VALIDATION",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}admin/profile",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"profile"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "TOKEN_VALIDATION",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{adminToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}admin/profile",
+											"host": [
+												"{{url}}admin"
+											],
+											"path": [
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 02 Feb 2023 10:38:53 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "524"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"20c-tcrjdfNJslJCUivFKgXLNRb1pD0\""
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"admin\": {\n        \"_id\": \"63d0bc8eb4c3da537d41d5d7\",\n        \"name\": \"Admin\",\n        \"email\": \"anshul@magadhtmt.com\",\n        \"password\": \"$2a$10$SafH03MEaJsNBN0xMw2.mekhrtfQadWZYlWCnFE/8vSqRSJQy7J9C\",\n        \"__v\": 0,\n        \"createdAt\": \"2023-01-25T05:22:22.153Z\",\n        \"updatedAt\": \"2023-02-02T10:04:50.728Z\",\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2QwYmM4ZWI0YzNkYTUzN2Q0MWQ1ZDciLCJlbWFpbCI6ImFuc2h1bEBtYWdhZGh0bXQuY29tIiwibmFtZSI6IkFkbWluIiwibnVtYmVyIjoiOTI2MjcxNTUyNyIsImlhdCI6MTY3NTMzMjI5MCwiZXhwIjoxNjc1NzY0MjkwfQ.HUC7McT3_rXL5dKCuWG8pN273jUCRb7kPJIyeoKy7Uw\"\n    }\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Company",
+					"item": [
+						{
+							"name": "CREATE_COMPANY",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"MDSPL\",\n    \"lat\":28.4872718,\n    \"long\":77.1139872\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}admin/company",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"company"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Attendance",
+					"item": [
+						{
+							"name": "GET_ATTENDANCE",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{adminToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}admin/attendance?startDate=2023-02-02&endDate=2023-02-03&search=2007&limit=2&skip=0",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"attendance"
+									],
+									"query": [
+										{
+											"key": "startDate",
+											"value": "2023-02-02"
+										},
+										{
+											"key": "endDate",
+											"value": "2023-02-03"
+										},
+										{
+											"key": "search",
+											"value": "2007"
+										},
+										{
+											"key": "limit",
+											"value": "2"
+										},
+										{
+											"key": "skip",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GET_ATTENDANCE",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{adminToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}admin/attendance?startDate=2023-02-02&endDate=2023-02-03&search=2007",
+											"host": [
+												"{{url}}admin"
+											],
+											"path": [
+												"attendance"
+											],
+											"query": [
+												{
+													"key": "startDate",
+													"value": "2023-02-02"
+												},
+												{
+													"key": "endDate",
+													"value": "2023-02-03"
+												},
+												{
+													"key": "search",
+													"value": "2007"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "852"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"354-YYTvzPfXk05Vb3Yo8eUGEGcSKVs\""
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 02 Feb 2023 12:02:53 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"attendance\": [\n        {\n            \"_id\": \"63d90bdfc2fa85fc3cc6b672\",\n            \"name\": \"GAURAV\",\n            \"empId\": \"2007\",\n            \"createdAt\": \"2023-01-31T12:38:55.878Z\",\n            \"attendance\": {\n                \"_id\": \"63db8298beb290e05f8607bb\",\n                \"user\": \"63d90bdfc2fa85fc3cc6b672\",\n                \"checkIn\": \"2023-02-01T08:08:26.102Z\",\n                \"checkOut\": \"2023-02-01T08:08:26.102Z\",\n                \"checkInLocation\": [],\n                \"checkOutLocation\": [],\n                \"state\": \"LEAVE\",\n                \"works\": [],\n                \"__v\": 0,\n                \"createdAt\": \"2023-02-02T09:30:00.028Z\",\n                \"updatedAt\": \"2023-02-02T09:30:00.028Z\"\n            }\n        },\n        {\n            \"_id\": \"63d90bdfc2fa85fc3cc6b672\",\n            \"name\": \"GAURAV\",\n            \"empId\": \"2007\",\n            \"createdAt\": \"2023-01-31T12:38:55.878Z\",\n            \"attendance\": {\n                \"_id\": \"63db82984a5a09ca4ad88f7d\",\n                \"user\": \"63d90bdfc2fa85fc3cc6b672\",\n                \"checkIn\": \"2023-02-02T09:27:48.475Z\",\n                \"checkOut\": \"2023-02-02T09:27:48.475Z\",\n                \"checkInLocation\": [],\n                \"checkOutLocation\": [],\n                \"state\": \"LEAVE\",\n                \"works\": [],\n                \"__v\": 0,\n                \"createdAt\": \"2023-02-02T09:30:00.058Z\",\n                \"updatedAt\": \"2023-02-02T09:30:00.058Z\"\n            }\n        }\n    ]\n}"
+								},
+								{
+									"name": "GET_ATTENDANCE",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{adminToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{url}}admin/attendance?startDate=2023-02-02&endDate=2023-02-03&search=2007&limit=2&skip=0",
+											"host": [
+												"{{url}}admin"
+											],
+											"path": [
+												"attendance"
+											],
+											"query": [
+												{
+													"key": "startDate",
+													"value": "2023-02-02"
+												},
+												{
+													"key": "endDate",
+													"value": "2023-02-03"
+												},
+												{
+													"key": "search",
+													"value": "2007"
+												},
+												{
+													"key": "limit",
+													"value": "2"
+												},
+												{
+													"key": "skip",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "X-Powered-By",
+											"value": "Express"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "999"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"3e7-sLdsUfSV3wOyQBIfQVVBlSreDZ8\""
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 02 Feb 2023 12:12:32 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"attendance\": {\n        \"count\": 11,\n        \"data\": [\n            {\n                \"_id\": \"63d90bdfc2fa85fc3cc6b646\",\n                \"name\": \"satyam kumar\",\n                \"empId\": \"2001\",\n                \"createdAt\": \"2023-01-31T12:38:55.490Z\",\n                \"attendance\": {\n                    \"_id\": \"63db3d5bbeb290e05f85fd92\",\n                    \"user\": \"63d90bdfc2fa85fc3cc6b646\",\n                    \"checkIn\": \"2023-02-02T04:34:35.567Z\",\n                    \"checkOut\": \"2023-02-01T08:08:26.102Z\",\n                    \"checkInTimeStamps\": 1675312474108,\n                    \"checkInLocation\": [\n                        28.48307,\n                        77.1042327\n                    ],\n                    \"checkOutLocation\": [],\n                    \"state\": \"CHECKED_IN\",\n                    \"works\": [],\n                    \"createdAt\": \"2023-02-02T04:34:35.568Z\",\n                    \"updatedAt\": \"2023-02-02T04:34:35.568Z\",\n                    \"__v\": 0\n                }\n            },\n            {\n                \"_id\": \"63d90bdfc2fa85fc3cc6b65f\",\n                \"name\": \"SUDHANSHU\",\n                \"empId\": \"2006\",\n                \"createdAt\": \"2023-01-31T12:38:55.645Z\",\n                \"attendance\": {\n                    \"_id\": \"63db3c31beb290e05f85fd7c\",\n                    \"user\": \"63d90bdfc2fa85fc3cc6b65f\",\n                    \"checkIn\": \"2023-02-02T04:29:37.590Z\",\n                    \"checkOut\": \"2023-02-01T08:08:26.102Z\",\n                    \"checkInTimeStamps\": 1675312176945,\n                    \"checkInLocation\": [\n                        28.4831168,\n                        77.1045878\n                    ],\n                    \"checkOutLocation\": [],\n                    \"state\": \"CHECKED_IN\",\n                    \"works\": [],\n                    \"createdAt\": \"2023-02-02T04:29:37.591Z\",\n                    \"updatedAt\": \"2023-02-02T04:29:37.591Z\",\n                    \"__v\": 0\n                }\n            }\n        ]\n    }\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "EMPLOYEE",
+					"item": [
+						{
+							"name": "UPDATE_COMPANY_DETAILS",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "{{url}}admin/attendance",
+									"host": [
+										"{{url}}admin"
+									],
+									"path": [
+										"attendance"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "TEST",
+			"item": []
+		}
+	]
+}
